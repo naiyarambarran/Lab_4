@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Lab 4</title>
+            <link rel="stylesheet" href="CSS/style.css"/>
+        </head>
+
+        <body>
+            <h1>Lab 4</h1>
+           
+            <div id="color-box">
+            </div>
+
+            <p>click the buttons below to change the colour of the div!</p>
+            <button onclick="buttonClicked () ">Button1</button>
+            <p id="button1-state">false</p>
+
+            <button onclick="button2Clicked () ">Button2</button>
+            <p id ="button2-state">false</p>
+
+            <p>Get your mouse to the 500 X position to watch a change occur!</p>
+
+
+            <div>
+                <p>event.clientX: <span id="client-x">0</span> px</p>
+                <p>event.clientY: <span id="client-y">0</span> px</p>
+            </div>
+
+            <div id="color-box2">
+                <p>event.offsetX: <span id="offset-x">0</span> px</p>
+                <p>event.offsetY: <span id="offset-y">0</span> px</p>
+            </div>
+
+
+
+
+            <script src="js/script.js"></script>
+        </body>
+    </html>
