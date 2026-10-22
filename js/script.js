@@ -29,10 +29,10 @@ window.addEventListener("mousemove", function (event) {
     document.getElementById("client-x").innerHTML = cX;
     document.getElementById("client-y").innerHTML = cy;
 
-    if (cx > 200 && cX < 400) {
-        document.body.style.backgroundColor = "pink";
+    if (cX > 200 && cX < 400) {
+        document.body.style.backgroundColor = "#D19AAB";
      } else {
-        document.bodily.style.backgroundColor = "lavander";
+        document.body.style.backgroundColor = "#FFE4E1";
      }
 });
 
@@ -44,9 +44,9 @@ document.getElementById("offset-y").innerHTML = oX;
 document.getElementById("offset-y").innerHTML = oY;
 
 if (oX < 500) {
-    colorBox2.style.backgroundColor = "#34170D";
+    colorBox2.style.backgroundColor = "pink";
 } else {
-    colorBox2.style.backgroundcolor = "white";
+    colorBox2.style.backgroundColor = "#FFE4E1"
 }
 }); 
 
