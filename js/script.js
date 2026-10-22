@@ -46,7 +46,7 @@ document.getElementById("offset-y").innerHTML = oY;
 if (oX < 500) {
     colorBox2.style.backgroundColor = "pink";
 } else {
-    colorBox2.style.backgroundColor = "#FFE4E1"
+    colorBox2.style.backgroundColor = "#FFE4E1";
 }
 }); 
 
